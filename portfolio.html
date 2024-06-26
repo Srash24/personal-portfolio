@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <!--header section-->
+    <div class="container">
+        <section id="header">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="#"><span>P</span>ORTFOLIO</a>
+                </div>
+                <div class="nav-menu">
+                    <ul id="sidemenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <!--<li><a href="#services">Services</a></li>-->
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <!--<li><a href="#testimonial">Testimonial</a></li>-->
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid-fa-xmark" onclick="closeMenu()"></i>
+                    </ul>
+                    <i class="fa-solid-fa-bars" onclick="openMenu()"></i>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="bottom-left">
+                    <h1 class="name">Srashti <span> Bhariya</span></h1>
+                    <h3 class="profession">-Software Devlopement</h3>
+                    <p class="short-desc">
+                        This is my portfolio of software devlopement.i am student of Shri Govindram Seksaria Institute Of Technology And Science Indore(Madhya Pradesh).
+
+                    </p>
+                    <a href="2 Page CV Template (1) (1).htm" class="btn-cv" target="_blank" download>Download CV</a>
+                </div>
+                <div class="bottom-right">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!--about section-->
+        <section id="about">
+            <div class="about-left">
+            <img src="IMG-20231220-WA0024.jpg" alt="user-sideimg">
+            </div>
+            <div class="about-right">
+                <div class="section-title">
+                    <h2 class="sub-title">About Me</h2>
+                    <h3 class="title">Software Devloper</h3>
+                </div>
+                <p class="desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quis magni temporibus aliquid reprehenderit, ipsam quo? Dolorem sequi sed cumque omnis ipsa, voluptatem delectus modi natus ut eveniet libero commodi.
+                </p>
+                <div class="tab-title">
+                    <p class="tab-link active-link" onclick="openTab('skills')">
+                    Skills </p>
+                    <p class="tab-link" onclick="openTab('experience')">Experience</p>
+                    <p class="tab-link" onclick="openTab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>
+                            <span>C,C++</span><br />
+                            C/C++ is an programming languages where C is a procedural programming language and C++ is an object oriented language.
+                        </li>
+                        <li>
+                            <span>Web devlopement</span><br />
+                            Web devlopement is a work involved in devloping a website  foe the internet or an intranet.
+                        </li>
+                        <li>
+                            <span>SQL</span><br />
+                             SQL stands for Structered Query Language.It is used for storing and managing data in relational databases.
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>
+                            <span>2023-2023</span><br />
+                            intern devloper at web solution ltd.
+                        </li>
+                        <li>
+                            <span>2021-2023</span><br />
+                            managing director
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li>
+                            <span>2023-2025-current</span><br />
+                            Master Of Computer Apllication from Shri G.S.Institute Of Technology And Science.
+                        </li>
+                        <li>
+                            <span>2020-2023</span><br />
+                            Bsc in Computer Science from M.H.College Of Home Science And Science For Women Autonomous.
+                        </li>
+                        <li>
+                            <span>2018-2020</span><br />
+                            Higher Secondary from Nirmala Higher Secondary School.
+                        </li>
+                        <li>
+                            <span>-2018</span><br />
+                            High School from Nirmala Higher Secondary School.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--portfolio section-->
+        <section id="portfolio">
+            <div class="section-title">
+                <h2 class="sub-title">My Portfolio</h2>
+                <h3 class="title">My Works</h3>
+            </div>
+            <div class="project-lists">
+                <div class="project">
+                    <img src="beautiful-nature-mountain-scenery-with-flowers-picjumbo-com.jpg" alt="project1" />
+                    <div class="layer">
+                        <h2>Password Manager</h2>
+                        <p>Password Manager is a computer program which allows users to 
+                            securely  store , generate and manage all their password in one file.</p>
+                            <a href="#"><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="james-wheeler-AFC0XvICMgs-unsplash.jpg" alt="project2" />
+                    <div class="layer">
+                        <h2>TIC TAC TOE</h2>
+                        <p>TIC TAC TOE is a game which contains nine boxes and there are  
+                            two players in a game who plays with their respective chances each  
+                            one of them have different signs which they place in those nine boxes. </p>
+                            <a href="#"><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="vecteezy_beautiful-waterfall-flowers-water-nature-waterfall-hd_32242170.jpg" alt="project3" />
+                    <div class="layer">
+                        <h2>Personal Portfolio</h2>
+                        <p>It contains personal details of individual.thier Education , work expersiences , projects etc.</p>
+                            <a href="#"><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--contact section-->
+
+        <section id="contact">
+            <div class="section-title">
+                <h2 class="sub-title">Contact</h2>
+                <h3 class="title">Get In Touch</h3>
+            </div>
+            <div class="content">
+                <div class="contact-left">
+                    <form action="">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required />
+                        <input type="email" name="email" id="email" placeholder="Your Email" required />
+                        <textarea name="message" id="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">Send Message<i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                </div>
+                <div class="vl"></div>
+                <div class="contact-right">
+                <div class="col address">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="info">
+                        <h2 class="title">Address</h2>
+                        <p>Vijay nagar jabalpur,482002</p>
+                    </div>
+                </div>
+                <div class="col phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="info">
+                        <h2 class="title">Phone</h2>
+                        <p>9424835487</p>
+                    </div>
+                </div>
+                <div class="col email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="info">
+                        <h2 class="title">Email</h2>
+                        <p>bhariyasrashti@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col website">
+                    <i class="fa-solid fa-globe"></i>
+                    <div class="info">
+                        <h2 class="title">Website</h2>
+                        <p>www.domain.com</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="copyright">
+                Copyright@ Portfolio | Made with <i class="fa-solid fa-heart"></i> By <a href="#">Srashti</a>
+            </div>
+        </section>
+    </div>
+    <script src="portfolio.js"></script>
+</body>
+</html>
